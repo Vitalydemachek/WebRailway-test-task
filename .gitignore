@@ -1,0 +1,8 @@
+.idea
+target
+*.iml
+*.class
+*.log
+.s
+1
+application-local.yml

@@ -1,0 +1,16 @@
+server:
+    port: 4109
+    servlet:
+        context-path: /wrw
+
+spring:
+    datasource:
+       type: com.zaxxer.hikari.HikariDataSource
+       url: jdbc:postgresql://localhost:5432/railway
+       username: postgres
+       password: postgres
+       driver-class-name: org.postgresql.Driver
+
+    flyway:
+       schemas: public
+       outOfOrder: true
